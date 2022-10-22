@@ -27,14 +27,9 @@ In NLP, suppose we have 2 peices of text (sentences), once the texts are embedde
 1. Install the necessary packages and modules (OpenAI).
 2. Import the necessary modules/ packages needed for this project.
 3. Retrieve your API key from OpenAI.
-   Visualize your dataset using the Seaborn package.
-   Create your tokenizer to remove unecessary words and characters.
-   Vectorize the dataset using both the CountVectorizer and the TfidVectorizer.
-   Split into training and test sets.
-   Implement the the various Algorithms for this. For details on each classifer, visit the dedicated repo:
-   Logistic regression.
-   K Nearest Neighbors.
-   Random Forest.
-   Naive Bayes.
-   Decision Tree.
-   Compare the accuracy of all 4 methods. In this case, Naive Bayes performed the best.
+4. Load the dataset (already contains both Similarity & Search embeddings).
+5. Implement Semantic Search using the Semantic embeddings.
+6. Split the data into Train- Test Split.
+7. Use Logistic Regression to classify the Similarity Embeddings.
+8. Use K - Nearest Neighbors to classify the Similarity Embeddings.
+9. Implement Clustering using the K-Means clustering algorithm on a different example.
